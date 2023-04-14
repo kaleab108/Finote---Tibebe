@@ -99,25 +99,23 @@ footer{
   }
 
 /*++++++++++++++++++++++++++++CURRENTEVENTS +++++++++++++++++++++++++++++*/
+.CurrentEvents{
+  color: #080808;
+  font-size: 20px;
+  font-family: 'Xanh Mono';
+  font-style: italic;
+}
 
-.LunchMeeting {
-    height: 290px;
-    width: 300px;
-  }
+.FutureEvents{
+  color: #080808;
+  font-size: 20px;
+  font-family: 'Xanh Mono';
+  font-style: italic;
+}
+
+.Location&Time{
   
-  .location-wrap {
-    font-family: 'Caveat';
-    font-size: 25px;
-    color: white;
-    text-shadow: 2px 2px #000000;
-  }
-
-  .paragraph-wrap{
-    font-size: 25px;
-    font-family: 'Xanh Mono';
-  }
-
-
+}
 /* ++++++++++++++++++++++++++++++ COPYRIGHT ++++++++++++++++++++++++++*/ 
 
 
@@ -589,9 +587,7 @@ Gallery Join our newsletter
   width: min(var(--promo-width,40rem),100%);
 }
 
-*, :after, :before {
-  box-sizing: border-box;
-}
+
 
 ::marker {
   color: var(--color-primary);
@@ -898,26 +894,7 @@ p{
   
 
 
-  .LunchMeeting {
-      height: 400px;
-      width: 500px;
-      
-  }
-    .CurrentEvents {
-      column-count: 2;
-      column-fill: balance;
-    
-    }
-    .location-wrap {
-      font-family: 'Caveat';
-      font-size: 25px;
-      color: white;
-      text-shadow: 2px 2px #000000;
-    }
-    .paragraph-wrap{
-      height:600px;
-      width:600px;
-    }
+   
   
 /*+++++++++++++++++++++++ FOOTER / CONTACT INFO +++++++++++++++++*/
   footer {
