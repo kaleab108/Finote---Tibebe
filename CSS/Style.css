@@ -113,8 +113,8 @@ footer{
   font-style: italic;
 }
 
-.Location&Time{
-  
+.LocationandTime{
+  background-color: transparent;
 }
 /* ++++++++++++++++++++++++++++++ COPYRIGHT ++++++++++++++++++++++++++*/ 
 
@@ -433,8 +433,6 @@ text Style for Input box ==================================*/
   -moz-user-modify: read-write;
   user-modify: read-write;
   word-wrap: break-word;
-  -webkit-line-break: after-white-space;
-  -moz-line-break: after-white-space;
   outline: none;
   white-space: wrap;
   opacity: 1;
@@ -1273,8 +1271,7 @@ text Style for Input box ==================================*/
   -moz-user-modify: read-write;
   user-modify: read-write;
   word-wrap: break-word;
-  -webkit-line-break: after-white-space;
-  -moz-line-break: after-white-space;
+  
   outline: none;
   white-space: wrap;
   opacity: 1;
